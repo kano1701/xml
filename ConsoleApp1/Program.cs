@@ -76,6 +76,7 @@ namespace ConsoleApp1
                             var counter = new counters() { type = elem.type, value = elem.value };
                             Console.WriteLine($"counter {counter.type} {counter.value}");
                             Drain.Params.data.counters.Add(counter);
+                            //у меня здесь ошибка котороую я не знаю как решить
                         }
 
                         DataContractJsonSerializer jsonFormatter = new DataContractJsonSerializer(typeof(Drain));
