@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <provider>3</provider>
+  <account>34-135623</account>
+  <counters>
+    <counter>
+      <type>1</type>
+      <value>234</value>
+    </counter>
+    <counter>
+      <type>2</type>
+      <value>456</value>
+    </counter>
+  </counters>
+  <pay_summ>323.00</pay_summ>
+</xml>
